@@ -2,6 +2,8 @@ module sigs.k8s.io/apiserver-network-proxy
 
 go 1.20
 
+replace google.golang.org/grpc v1.51.0 => github.com/zhiweiyin318/grpc-go v0.0.0-20231220074219-627f1daa7a28
+
 require (
 	github.com/golang/mock v1.6.0
 	github.com/google/uuid v1.3.0
